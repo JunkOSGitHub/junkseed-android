@@ -31,8 +31,7 @@ public class JunkOSActivity extends AppCompatActivity {
     // ACTION LISTENERS
     @Click(R.id.fab)
     void onFabClick(View view){
-        Snackbar.make(view, junk_os_greetings, Snackbar.LENGTH_LONG)
-                .setAction("Action", null).show();
+        JunkActivity_.intent(this).start();
     }
     @OptionsItem(R.id.action_settings)
     boolean onSettingClick(){

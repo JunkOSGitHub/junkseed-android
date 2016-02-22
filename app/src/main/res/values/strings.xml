@@ -9,4 +9,9 @@
     </string>
     <string name="action_settings">Settings</string>
     <string name="junk_os_greetings">Greetings from Junk OS</string>
+    <string name="title_activity_junk">JunkActivity</string>
+    <string name="junk_activity">Some junk activity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_no">NoActivity</string>
 </resources>
