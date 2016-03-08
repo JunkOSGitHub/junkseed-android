@@ -12,7 +12,7 @@ import org.androidannotations.annotations.OptionsMenu;
 import org.androidannotations.annotations.ViewById;
 
 import fr.ec.producthunt.junklist.Junk;
-import fr.ec.producthunt.junklist.JunkListAdapter;
+import fr.ec.producthunt.postlist.PostListAdapter;
 
 @EActivity(R.layout.activity_junk)
 @OptionsMenu(R.menu.menu_junk)
@@ -21,7 +21,7 @@ public class JunkActivity extends Activity {
     ListView junkList;
 
     @Bean
-    JunkListAdapter adapter;
+    PostListAdapter adapter;
 
     @AfterViews
     void bindAdapter() {
