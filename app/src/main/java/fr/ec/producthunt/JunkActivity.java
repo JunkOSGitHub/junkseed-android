@@ -11,8 +11,8 @@ import org.androidannotations.annotations.ItemClick;
 import org.androidannotations.annotations.OptionsMenu;
 import org.androidannotations.annotations.ViewById;
 
-import fr.ec.producthunt.model.Junk;
-import fr.ec.producthunt.model.JunkListAdapter;
+import fr.ec.producthunt.junklist.Junk;
+import fr.ec.producthunt.junklist.JunkListAdapter;
 
 @EActivity(R.layout.activity_junk)
 @OptionsMenu(R.menu.menu_junk)

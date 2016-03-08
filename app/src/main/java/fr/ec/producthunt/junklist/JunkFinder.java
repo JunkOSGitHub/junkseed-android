@@ -1,4 +1,4 @@
-package fr.ec.producthunt.model;
+package fr.ec.producthunt.junklist;
 
 import java.util.List;
 
