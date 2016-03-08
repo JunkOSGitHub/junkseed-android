@@ -29,7 +29,7 @@ android {
     buildToolsVersion "23.0.2"
 
     defaultConfig {
-        applicationId "os.junk.com.seed"
+        applicationId "fr.ec.producthunt"
         minSdkVersion 17
         targetSdkVersion 23
         versionCode 1
