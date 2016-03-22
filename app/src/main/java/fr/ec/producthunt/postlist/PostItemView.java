@@ -18,6 +18,9 @@ public class PostItemView extends LinearLayout {
     @ViewById(R.id.idView)
     TextView idView;
 
+    @ViewById(R.id.taglineView)
+    TextView taglineView;
+
     public PostItemView(Context context) {
         super(context);
     }
@@ -25,5 +28,6 @@ public class PostItemView extends LinearLayout {
     public void bind(Post post) {
         nameView.setText(post.getName());
         idView.setText(String.valueOf(post.getId()));
+        taglineView.setText(post.getTagline());
     }
 }
